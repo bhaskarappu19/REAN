@@ -23,7 +23,7 @@ export default function Home() {
     try {
 
       const res = await axios.post(
-        "https://rean-backend-27g4.onrender.com",
+        "https://rean-backend-27g4.onrender.com/upload",
         formData
       );
 
